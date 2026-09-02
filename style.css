@@ -226,11 +226,11 @@ nav h1 {
   box-shadow: 0 8px 30px rgba(0, 0, 0, 0.12);
   width: 100%;
 }
-;='.portfolio-box h1 {
+portfolio-box h1 {
   text-align: center;
   width: 100%;
   margin: 0;
-}'\
+}
 #opspark a:hover {
   background: #90ee90;
   color: #000;
