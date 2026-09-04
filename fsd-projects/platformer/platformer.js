@@ -31,19 +31,28 @@ $(function () {
 
 
     // TODO 2 - Create Platforms
-    createPlatform(0,650,100,100);
-    createPlatform(300,550,100,100)
-
+    createPlatform(0,450,100,100); //leftmost platform
+    createPlatform(300,660,100,100); //left right platform
+    createPlatform(600,550,100,100); //middle left platform
+    createPlatform(775,478,50,50); //middle right platform
+    createPlatform(900,360,100,100); // right left platform
+    createPlatform(1100,350,200,100); // rightmost platform
     // TODO 3 - Create Collectables
-    createCollectable("steve",1025,200,0.5,0.9857881861);
-
-
-    
+    createCollectable("steve",200,250,0);//first collectible
+    createCollectable("steve",320,560,0);//second collectible
+    createCollectable("steve",500,400,0);//third collectible
+    createCollectable("steve",1005,200,0);//fourth collectible
+    createCollectable("steve",1305,250,0);//last collectible
     // TODO 4 - Create Cannons
-    createCannon("left",650,0.00001,40000,20)
-    createCannon("right",150,100,40000,20);
-    createCannon("top",350,1000);
-    
+    createCannon("left",650,0.00001,40000,20)//bottom barrier
+    createCannon("right",170,30,40000,20);// top barrier
+    createCannon("top",100,1250);// platform 1
+    createCannon("top",250,1000);//jump 1 top
+    createCannon("bottom",100,900);//jump 1 bottom
+    createCannon("top",500,850);//jump 2 cannon 1
+    createCannon("top",550,850);//jump 2 cannon 2
+    createCannon("top",800,850);//jump 5
+    createCannon("top",1300,6200,40,10000000000000);//end trophy guard
     //////////////////////////////////
     // ONLY CHANGE ABOVE THIS POINT //
     //////////////////////////////////
