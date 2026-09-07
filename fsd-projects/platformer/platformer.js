@@ -52,7 +52,7 @@ $(function () {
     createCannon("top",500,850);//jump 2 cannon 1
     createCannon("top",550,850);//jump 2 cannon 2
     createCannon("top",800,850);//jump 5
-    createCannon("top",1300,6200,40,10000000000000);//end trophy guard
+    createCannon("top",1300,5000,40,1000000);//end trophy guard
     //////////////////////////////////
     // ONLY CHANGE ABOVE THIS POINT //
     //////////////////////////////////
