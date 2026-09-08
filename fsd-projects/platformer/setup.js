@@ -96,10 +96,9 @@ let halleImage;
 let animationDetails = {};
 
 var collectableList = {
-  database: { image: "images/collectables/database.png" },
-  diamond: { image: "images/collectables/diamond-head.png" },
-  grace: { image: "images/collectables/grace-head.png" },
-  kennedi: { image: "images/collectables/kennedi-head.png" },
-  max: { image: "images/collectables/max-head.png" },
-  steve: { image: "images/collectables/steve-head.png" },
+  ernest: { image: "images/collectables/ernest.png" },
+  little_green_man: { image: "images/collectables/little_green_man.png" },
+  mr_evil_dr_porkchop: { image: "images/collectables/mr_evil_dr_porkchop.png" },
+  partysaurus_rex: { image: "images/collectables/partysaurus_rex.png" },
+  tuberous_root_man: { image: "images/collectables/tuberous_root_man.png" },
 };
