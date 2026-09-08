@@ -39,15 +39,15 @@ $(function () {
     createPlatform(900,360,100,50); // right left platform
     createPlatform(1100,350,200,50); // rightmost platform
     // TODO 3 - Create Collectables
-    createCollectable("steve",200,250,0);//first collectible
-    createCollectable("steve",360,560,0);//second collectible
-    createCollectable("steve",600,400,0);//third collectible
-    createCollectable("steve",1005,200,0);//fourth collectible
-    createCollectable("steve",1305,250,0);//last collectible
+    createCollectable("",200,250,0); //alien
+    createCollectable("",360,560,0);//rex
+    createCollectable("",600,400,0);//mr potato head
+    createCollectable("",1005,200,0);//ham
+    createCollectable("",1305,250,0);//slinky dog
     // TODO 4 - Create Cannons
     createCannon("left",650,0.00001,40000,20)//bottom barrier
     createCannon("right",170,30,40000,20);// top barrier
-    createCannon("top",100,1250);// platform 1
+    createCannon("top",120,1250);// platform 1
     createCannon("top",250,1000);//jump 1 top
     createCannon("bottom",100,900);//jump 1 bottom
     createCannon("top",500,1000);//jump 2 cannon 1
