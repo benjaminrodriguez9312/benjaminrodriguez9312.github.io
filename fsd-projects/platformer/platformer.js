@@ -27,7 +27,7 @@ $(function () {
     //////////////////////////////////
 
     // TODO 1 - Enable the Grid
-     //toggleGrid();
+     toggleGrid();
 
 
     // TODO 2 - Create Platforms
@@ -40,7 +40,7 @@ $(function () {
     createPlatform(1100,350,250,50, "violet"); // rightmost platform
     // TODO 3 - Create Collectables
     createCollectable("partysaurus_rex",350,400,0); //rex
-    createCollectable("ernest",400,600,0);//slinky
+    createCollectable("ernest", 255, 615, 0, 0, 225, 450, 2);//slinky
     createCollectable("mr_evil_dr_porkchop",625,500,0);//ham
     createCollectable("tuberous_root_man",925,300,0);//mr potato head
     createCollectable("little_green_man",1300,300,0);//alien
