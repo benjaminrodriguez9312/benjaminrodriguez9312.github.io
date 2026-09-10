@@ -50,10 +50,11 @@ $(function () {
     createCannon("top",120,1250);// platform 1
     createCannon("top",250,1000);//jump 1 top
     createCannon("bottom",100,900);//jump 1 bottom
-    createCannon("top",500,1200);//jump 2 cannon 1
-    createCannon("top",550,1200);//jump 2 cannon 2
+    createCannon("top",500,900);//jump 2 cannon 1
+    createCannon("top",550,900);//jump 2 cannon 2
     createCannon("top",800,850);//jump 5
-    createCannon("top",1300,11000,40,1000000);//end trophy guard
+     createCannon("bottom",1000,600)//jump6
+    createCannon("top",1300,10000,40,100000000000000000000);//end trophy guard
     //////////////////////////////////
     // ONLY CHANGE ABOVE THIS POINT //
     //////////////////////////////////
