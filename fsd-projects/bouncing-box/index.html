@@ -7,7 +7,7 @@
     <style>
 
       body {
-       background-image: url("Alfred.jpg");
+       background-image: url("weird.background.image/Alfred.jpg");
         background-color: #cccccc;
       }
 
@@ -82,7 +82,8 @@
         var positionY = 0;
         var speedY = 10;
         var boardHeight = jQuery(window).height();
-        
+        var randNumX = Math.random() * boardWidth;
+        var randNumY = Math.random() * boardHeight;
 
         /**
          * This Function will be called 20 times/second.
@@ -114,8 +115,10 @@
          * - move the box to the left side of the screen.
          */
         function handleBoxClick() {
-          positionX = 0;
-          positionY = 0;
+          randNumX = Math.random() * boardWidth;
+          randNumY = Math.random() * boardHeight;
+          positionX = randNumX;
+          positionY = randNumY;
           changeBoxText(points);
           points ++;
           speed = 3 * points + 10;
@@ -123,6 +126,7 @@
 
           
         }
+        
 
 
         
