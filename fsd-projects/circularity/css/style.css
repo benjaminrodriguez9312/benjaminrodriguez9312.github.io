@@ -1,6 +1,6 @@
 
 body {
-    background: url("../images/spinning.jpg") no-repeat center center fixed;
+    background: url("../images/spinning.jpg") no-repeat center center fixed; 
     background-color: #ccccccea;
     -webkit-background-size: cover;
     -moz-background-size: cover;

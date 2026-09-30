@@ -83,10 +83,10 @@ var init = function (window) {
         game.checkCirclePosition = function(circle) {
 
             // if the circle has gone past the RIGHT side of the screen then place it on the LEFT
-            var rightEdge = circle.x + circle.radius;
-            var leftEdge = circle.x - circle.radius;
-            var bottomEdge = circle.y + circle.radius;
-            var topEdge = circle.y - circle.radius;           
+            var rightEdge = circle.x + circle.radius; //defines the right edge of each ball
+            var leftEdge = circle.x - circle.radius; //defines the left edge of every balls
+            var bottomEdge = circle.y + circle.radius; //defines the bottom edge of every balls
+            var topEdge = circle.y - circle.radius; //defines the top edge of every balls
             
             if ( leftEdge > canvas.width ) {
                 circle.x = 0 - circle.radius;
